@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="16.5"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="Họ tên"
+                android:textSize="11sp" />
+
+            <TextView
+                    android:id="@+id/tvGioitinh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="2"
+                    android:text="Giới tính"
+                    android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvTuoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="2"
+                android:text="Tuổi"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvChieucao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="2"
+                android:text="Chiều cao"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvCannang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="2"
+                android:text="Cân nặng"
+                android:textSize="11sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvBmi"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_weight="2"-->
+<!--                android:text="BMI"-->
+<!--                android:textSize="11sp" />-->
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="0.5"
+                android:background="@android:drawable/ic_delete"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <Button
+                android:id="@+id/btnSua"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                android:background="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNgay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DD/MM/YY" />
+
+
+    </LinearLayout>
+</LinearLayout>

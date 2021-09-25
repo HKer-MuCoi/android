@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thông tin chi tiết"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtHoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Họ tên"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtGT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtTuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuổi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtCc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chiều cao"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtCn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBmi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnQL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Quay lại" />
+</LinearLayout>

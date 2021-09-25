@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+<!--    <Button-->
+<!--        android:id="@+id/sign_in"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.499" />-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/imageView1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="729dp"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:orientation="horizontal">-->
+
+<!--&lt;!&ndash;        <hms.integration.myapplication.MyImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/imageView"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@mipmap/ic_launcher_round" />&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/display_name"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Textview"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/idtoken_button_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Sign In with Huawei ID"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cancel_authorization_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Cancel authorization with Huawei ID"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/signout_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Sign Out with Huawei ID"/>-->
+
+<!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_title_margin"
+        android:paddingTop="@dimen/activity_title_margin"
+        android:paddingRight="@dimen/activity_title_margin"
+        tools:context="com.huawei.hmssample.AccountActivity">
+
+        <TextView
+            android:text="@string/sample_account_description"
+            style="@style/TitleStyle"
+            />
+
+
+        <Button
+            android:id="@+id/account_signin"
+            style="@style/ButtonStyle"
+            android:text="@string/sign_in" />
+
+        <Button
+            android:id="@+id/account_signInCode"
+            style="@style/ButtonStyle"
+            android:text="@string/revokeAccess" />
+
+
+        <Button
+            android:id="@+id/account_silent_signin"
+            style="@style/ButtonStyle"
+            android:text="@string/silent_sign_in" />
+
+        <Button
+            android:id="@+id/account_signout"
+            style="@style/ButtonStyle"
+            android:text="@string/sign_out" />
+
+        <Button
+            android:id="@+id/cancel_authorization"
+            style="@style/ButtonStyle"
+            android:text="@string/cancel_authorization" />
+
+        <Button
+            android:id="@+id/ibm"
+            style=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_app"
+            android:enabled="false"
+            android:onClick="main_actvt"/>
+
+        <FrameLayout
+            android:id="@+id/framelog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"></FrameLayout>
+    </LinearLayout>
+</ScrollView>

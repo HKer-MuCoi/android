@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IBM calculator</string>
+    <string name="sample_description">Account Kit Demo</string>
+    <string name="sample_account_description">Login Process</string>
+    <string name="sign_in">ID-Token Mode Sign ln</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="revokeAccess">AuthorizationCode Mode Sign ln</string>
+    <string name="silent_sign_in">Silent Sign In</string>
+    <string name="cancel_authorization">Cancel Authorization</string>
+    <string name="start_app">Start IBM application</string>
+</resources>
